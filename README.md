@@ -1,65 +1,76 @@
-Consta nesse repositório o CRUD do Sistema de Biblioteca referente a Avaliação 1 da disciplina de Paradigmas de Programação 
-📚 Sistema de Biblioteca em C
+# 📚 Sistema de Biblioteca em C
 
-Este repositório contém a implementação de um CRUD de um sistema de biblioteca, desenvolvido como parte da Avaliação 1 da disciplina de Paradigmas de Programação.
+Este repositório contém a implementação de um **CRUD (Create, Read, Update, Delete)** de um sistema de biblioteca, desenvolvido como parte da **Avaliação 1 da disciplina de Paradigmas de Programação**.
 
-🎯 Objetivo
+---
+
+## 🎯 Objetivo
 
 O projeto tem como objetivo aplicar conceitos de diferentes paradigmas de programação utilizando a linguagem C:
 
-Paradigma Imperativo: controle de fluxo, entrada e saída de dados, manipulação de memória.
-Paradigma Funcional (adaptado em C): uso de funções puras para manipulação de dados, evitando efeitos colaterais.
+* **Paradigma Imperativo**: controle de fluxo, entrada e saída de dados, manipulação de memória.
+* **Paradigma Funcional (adaptado em C)**: uso de funções puras para manipulação de dados, evitando efeitos colaterais.
 
-⚙️ Funcionalidades
+---
+
+## ⚙️ Funcionalidades
 
 O sistema permite:
 
-📌 Cadastrar livros
-📖 Listar livros cadastrados
-✏️ Atualizar informações de um livro
-❌ Remover livros
+* 📌 Cadastrar livros
+* 📖 Listar livros cadastrados
+* ✏️ Atualizar informações de um livro
+* ❌ Remover livros
 
 Cada livro contém os seguintes atributos:
 
-ID
-Título
-Gênero
-Editora
-Edição
+* ID
+* Título
+* Gênero
+* Editora
+* Edição
 
-🧠 Estrutura do Projeto
+---
+
+## 🧠 Estrutura do Projeto
 
 O código foi dividido conceitualmente em:
 
-🔹 Parte Funcional (Funções Puras)
+### 🔹 Parte Funcional (Funções Puras)
 
 Responsável pela lógica de manipulação dos dados:
 
--Criação de livros
--Atualização de registros
--Busca por ID
--Remoção de livros
+* Criação de livros
+* Atualização de registros
+* Busca por ID
+* Remoção de livros
 
 Essas funções:
 
--Não utilizam entrada/saída (`scanf`, `printf`)
--Não dependem de variáveis globais
--Retornam novos valores sem efeitos colaterais (quando possível)
+* Não utilizam entrada/saída (`scanf`, `printf`)
+* Não dependem de variáveis globais
+* Retornam novos valores sem efeitos colaterais (quando possível)
 
-🔸 Parte Imperativa
+---
+
+### 🔸 Parte Imperativa
 
 Responsável pela interação com o usuário:
 
--Menu do sistema
--Entrada de dados
--Exibição de informações
+* Menu do sistema
+* Entrada de dados
+* Exibição de informações
 
-🛠️ Tecnologias Utilizadas
+---
 
--Linguagem C
--GDB online Debugger
+## 🛠️ Tecnologias Utilizadas
 
-▶️ Como Executar
+* Linguagem C
+* Compilador GCC (ou compatível)
+
+---
+
+## ▶️ Como Executar
 
 1. Clone o repositório:
 
@@ -79,22 +90,30 @@ gcc main.c -o biblioteca
 ./biblioteca
 ```
 
-📚 Conceitos Aplicados
+---
 
--Estruturas (`struct`)
--Vetores
--Funções
--Separação de responsabilidades
--Simulação de programação funcional em C
+## 📚 Conceitos Aplicados
 
-📌 Observações
+* Estruturas (`struct`)
+* Vetores
+* Funções
+* Separação de responsabilidades
+* Simulação de programação funcional em C
 
-Como a linguagem C não é funcional por natureza, os conceitos desse paradigma foram adaptados, priorizando o uso de funções puras e reduzindo efeitos colaterais.
+---
 
-👨‍💻 Autor
+## 📌 Observações
+
+Como a linguagem C não é funcional por natureza, os conceitos desse paradigma foram adaptados, priorizando o uso de **funções puras** e reduzindo efeitos colaterais.
+
+---
+
+## 👨‍💻 Autor
 
 Guilherme Passinho
 
-📄 Licença
+---
+
+## 📄 Licença
 
 Este projeto foi desenvolvido para fins acadêmicos.
