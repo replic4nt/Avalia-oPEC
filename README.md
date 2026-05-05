@@ -91,6 +91,19 @@ gcc main.c -o biblioteca
 ```
 
 ---
+## 🧠 Paradigma mais fácil de implementar
+
+O paradigma imperativo foi o mais fácil de aplicar no desenvolvimento deste projeto.
+
+Isso ocorre porque a linguagem C é naturalmente baseada nesse paradigma, oferecendo suporte direto a estruturas de controle como loops (`for`, `while`), condicionais (`if`) e manipulação direta de variáveis e memória.
+
+Dessa forma, operações como cadastro, listagem, atualização e remoção de livros foram implementadas de maneira mais direta e intuitiva.
+
+Por outro lado, a aplicação do paradigma funcional apresentou maior nível de dificuldade, pois a linguagem C não possui suporte nativo a conceitos funcionais. Foi necessário adaptar a implementação por meio do uso de funções puras, evitando efeitos colaterais e dependência de estado global, o que exigiu maior planejamento na organização do código.
+
+Assim, conclui-se que, embora ambos os paradigmas tenham sido utilizados, o paradigma imperativo se mostrou mais simples e natural dentro do contexto da linguagem C.
+
+---
 
 ## 📚 Conceitos Aplicados
 
